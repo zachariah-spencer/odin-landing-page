@@ -156,5 +156,21 @@ body {
   color: #1f2937;
   font-size: 18px;
   padding-right: 96px;
+}
 
+.cta-modal {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer p{
+  color: #e5e7eb;
+  text-align: center;
 }
