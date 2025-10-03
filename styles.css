@@ -158,9 +158,40 @@ body {
   padding-right: 96px;
 }
 
-.cta-modal {
+.cta-section {
+  margin: 64px 0px;
+  padding: 96px 200px;
+}
+
+.cta-modal{
   display: flex;
-  margin-bottom: 32px;
+  padding: 24px 96px;
+  background-color: #3882f6;
+  border-radius: 16px;
+}
+
+.cta-modal .left, .cta-modal .right, .cta-modal .left *{
+  background-color: #3882f6;
+}
+
+.cta-modal .left {
+  flex: 3;
+}
+
+.cta-modal .left h3 {
+  color: #f9faf8;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.cta-modal .left p {
+  margin-top: 0px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.cta-modal .right {
+  flex: 1;
 }
 
 .footer {
