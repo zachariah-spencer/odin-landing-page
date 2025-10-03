@@ -10,6 +10,7 @@ body {
 
 .header .left h3 {
   color: #f9faf8;
+  font-size: 24px;
 }
 
 .header .right a {
@@ -29,3 +30,60 @@ body {
   gap: 32px;
 }
 
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px;
+  gap: 96px;
+}
+
+.hero-container .left {
+  flex: 1;
+}
+
+.hero-container .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.hero-container .right .image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+
+.hero-container .left h1 {
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0px;
+  padding-right: 64px;
+}
+
+.hero-container .left p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.hero-container .left button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 24px;
+  border: 0px;
+  margin: 0px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+
+.hero-container .right .image-placeholder p {
+  color: #e5e7eb;
+  font-size: 18px;
+  background-color: gray;
+}
