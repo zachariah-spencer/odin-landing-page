@@ -87,3 +87,47 @@ body {
   font-size: 18px;
   background-color: gray;
 }
+
+.content-container {
+  background-color: #f9faf8;
+}
+.content-container * {
+  background-color: #f9faf8;
+}
+
+.content-container h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 0px;
+  margin-top: 64px;
+}
+
+.cards {
+  display: flex;
+  padding: 64px 300px;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card .square {
+  border: 2px solid #3882f6;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+}
+
+.card p {
+  font-size: 12px;
+  padding: 8px 32px;
+  text-align: center;
+}
